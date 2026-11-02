@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-cognito-resource-server
+  description: >
+    This module will create Cognito Resource Server
+  annotations:
+    github.com/project-slug: Flaconi/terraform-aws-cognito-resource-server
+  tags:
+    - terraform
+    - aws
+    - cognito
+
+spec:
+  type: library
+  lifecycle: production
+  owner: group:platform
+  system: aws-infrastructure
+  providesApis: []
